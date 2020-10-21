@@ -1,0 +1,176 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+    font-family: prenton, sans-serif;
+    
+}
+
+.errorpage-container {
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    height: 100%;
+
+}
+
+.no-parts-container {
+    height: 70vh;
+    /* position: absolute; */
+}
+
+/* .error-gif {
+    width: inherit;
+} */
+
+.error-image {
+    width: 50%;
+    margin: 30px;
+    margin-bottom: 0;
+}
+
+.text-area {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text-area h1 {
+    font-size: 130px;
+    font-weight: 900;
+}
+
+.parts-btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.error-btn {
+    margin: 15px;
+    border: none;
+    height: 5vh;
+    width: 70%;
+    border-radius: 10px;
+    background-color: #161616;
+}
+
+.error-btn p {
+    color: white;
+    font-size: initial;
+}
+
+#bm {
+    width: 100%;
+    margin: 0 auto; 
+    display: flex;
+    justify-content: center;
+    height: 30vh;
+}
+
+#no-text-area {
+    height: 70vh;
+    background-color: #161616;
+    display: flex;
+    flex-direction: column;
+}
+
+#no-text-area h3 {
+    color: white;
+    font-size: 29px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#no-text-area p {
+    color: white;
+}
+
+#part-btns {
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    justify-content: space-evenly;
+}
+
+#veh-reset {
+    background-color: #ee4b25;
+    border-radius: 15px;
+    height: 5vh;
+    cursor: pointer;
+}
+
+#home-btn {
+    background-color: #f1f1f1;
+    border-radius: 15px;
+    height: 5vh;
+}
+
+#home-btn p {
+    color: black;
+}
+
+@media screen and (max-width: 1276px) {
+    #bm {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    #bm {
+        height: auto;
+        display: flex;
+    }
+
+    #no-text-area {
+        height: 100%;
+        /* padding-top: 100px; */
+        justify-content: end;
+    }
+
+    .text-area h1 {
+        font-size: 100px;
+    }
+    #part-btns {
+        width: 100%;
+    }
+
+    .error-image {
+        width: 90%;
+    }
+
+
+    
+
+    #no-text-area h3 {
+        padding: 60px;
+        padding-bottom: 20px;
+        font-size: 20px;
+
+    }
+
+    #no-text-area p {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #no-text-area h3 {
+        font-size: 15px;
+    }
+
+    .no-parts-container {
+        height: 80vh;
+    }
+}

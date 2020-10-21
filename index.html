@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+    <title>No Parts Animation</title>
+</head>
+<body>
+
+    <body onload="error()">
+        <div class="no-parts-container">
+            <div class="error-image" id="bm"></div>
+            <!-- <div class="error-image"><img class="image" src="/images/crying.svg" alt="Not Found" srcset="" /></div> -->
+            <div class="text-area" id="no-text-area">
+                <h3>We couldn't find the parts for [your vehicle]</h3>
+    
+                <div class="parts-btns" id="part-btns">
+    
+                    <button class="error-btn" id="veh-reset"><a href="/index.php"><p>Reset vehicle</p></a></button>
+    
+                    <button class="error-btn" id="home-btn"><a href="/index.php"><p>Go to home page</p></a></button>
+                </div>
+                <!-- <p>Go back to our <span class="home-page-link"><a href="/index.php">home page.</a></span></p> -->
+            </div>
+        </div>
+    
+
+        <script src='./js/404.json'></script>
+        <script src='./js/script.js'></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.3/lottie.min.js" integrity="sha512-35O/v2b9y+gtxy3HK+G3Ah60g1hGfrxv67nL6CJ/T56easDKE2TAukzxW+/WOLqyGE7cBg0FR2KhiTJYs+FKrw==" crossorigin="anonymous"></script>
+    
+</body>
+</html>
