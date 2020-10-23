@@ -5,7 +5,7 @@ function error() {
             renderer: 'svg',
             loop: false,
             autoplay: true,
-            path: '/js/404.json'
+            path: './js/404.json'
         });
 
     
